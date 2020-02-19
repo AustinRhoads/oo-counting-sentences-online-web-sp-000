@@ -18,3 +18,4 @@ self.end_with?("!")
 binding.pry
   end
 end
+"This, well, is a sentence. This is too!! And so is this, I think?".count_sentences
