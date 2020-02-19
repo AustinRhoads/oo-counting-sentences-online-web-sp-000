@@ -15,7 +15,7 @@ self.end_with?("!")
   end
 
   def count_sentences
-
+reg = /[.?!]/
 binding.pry
   end
 end
