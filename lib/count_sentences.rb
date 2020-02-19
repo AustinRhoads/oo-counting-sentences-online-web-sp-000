@@ -16,7 +16,7 @@ self.end_with?("!")
 
   def count_sentences
 reg = /[.?!]+/
-binding.pry
+self.split(reg).size
   end
 end
 "This, well, is a sentence. This is too!! And so is this, I think?".count_sentences
